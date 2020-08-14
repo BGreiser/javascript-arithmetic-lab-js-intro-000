@@ -21,3 +21,11 @@ function makeInt(string) {
 function preserveDecimal(string) {
   return parseFloat(string);
 }
+
+function increments(n) {
+  returns n++;
+}
+
+function decrement(n) {
+  return n--;
+}
