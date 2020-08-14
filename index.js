@@ -23,9 +23,13 @@ function preserveDecimal(string) {
 }
 
 function increment(n) {
-  returns n++;
+  let a = parseInt(n);
+  a += a;
+  return a++;
 }
 
 function decrement(n) {
-  return n--;
+  let a = parseInt(n);
+  a -= a;
+  return a;
 }
