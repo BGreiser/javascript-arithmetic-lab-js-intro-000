@@ -22,14 +22,12 @@ function preserveDecimal(string) {
   return parseFloat(string);
 }
 
-function increment(n) {
-  let a = parseInt(n);
-  a += a;
-  return a++;
+function increment(start, inc) {
+  let a = start += inc;
+  return a;
 }
 
-function decrement(n) {
-  let a = parseInt(n);
-  a -= a;
+function decrement(start, dec) {
+  let a = start -= dec;
   return a;
 }
