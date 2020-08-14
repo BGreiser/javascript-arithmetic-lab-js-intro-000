@@ -23,7 +23,7 @@ function preserveDecimal(string) {
 }
 
 function increment(n) {
-  return n++;
+  return n += 2;
 }
 
 function decrement(start, dec) {
