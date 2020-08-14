@@ -22,7 +22,7 @@ function preserveDecimal(string) {
   return parseFloat(string);
 }
 
-function increments(n) {
+function increment(n) {
   returns n++;
 }
 
