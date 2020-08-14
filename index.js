@@ -23,9 +23,11 @@ function preserveDecimal(string) {
 }
 
 function increment(n) {
-  return n += 2;
+  let a = (n + 1);
+  return a;
 }
 
-function decrement(start, dec) {
-  return a--;
+function decrement(n) {
+  let a = (n - 1);
+  return a;
 }
