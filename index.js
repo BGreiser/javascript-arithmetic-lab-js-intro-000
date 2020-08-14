@@ -22,9 +22,8 @@ function preserveDecimal(string) {
   return parseFloat(string);
 }
 
-function increment(start, inc) {
-  let a = start += inc;
-  return a;
+function increment(n) {
+  return n++;
 }
 
 function decrement(start, dec) {
