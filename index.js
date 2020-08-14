@@ -27,5 +27,5 @@ function increment(n) {
 }
 
 function decrement(start, dec) {
-  return --a;
+  return a--;
 }
